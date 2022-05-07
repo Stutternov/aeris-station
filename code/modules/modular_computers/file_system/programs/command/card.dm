@@ -179,9 +179,6 @@
 				else
 					computer.attackby(user.get_active_hand(), user)
 		if("terminate")
-			if(!authorized(user_id_card))
-				to_chat(usr, "<span class='warning'>Access denied.</span>")
-				return
 			if(computer && can_run(user, 1))
 				id_card.assignment = "Terminated"
 				remove_nt_access(id_card)
