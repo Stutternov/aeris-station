@@ -45,7 +45,6 @@
 #define LANGUAGE_BLITZ "Blitzshell Communique"
 #define LANGUAGE_OPIFEXEE "Opifexee"
 #define LANGUAGE_CHTMANT "Chthive"
-#define LANGUAGE_KRIOSAN "Kriosan"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.
